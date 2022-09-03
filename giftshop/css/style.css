@@ -1,0 +1,374 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/****Index****/
+
+/********************* top ***************/
+#top{
+    background:#7b8874;
+    }
+    .top_1 h2{
+    text-align:center;
+    padding-top:40px;
+    }
+    .top_1 h2 a{
+    font-size:96px;
+    text-decoration:none;
+    color:#FFFFFF;
+    }
+    .top_1 .founder_1{
+    margin-right:10px;
+    font-size:14px;
+    }
+    .top_1 .founder_2{
+    margin-left:10px;
+    font-size:15px;
+    }
+    .top_1 .founder_3{
+    display: block;
+    line-height: 100px;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Nanum Myeongjo', serif;
+    }
+    .top_1 .founder_4{
+    color:#fa9195;
+    letter-spacing:5px;
+    }
+
+/********************* top_end ***************/
+
+
+
+/********************* cards 1 ***************/
+
+.section-1{
+    padding: 9vmin 0;
+}
+.section-1 .row .col-md-6 .pray img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+section-1 .row .col-md-6 .panel{
+   position: absolute;
+   top: 7vmin;
+   left: -18vmin;
+   background: white;
+   border-radius: 3px;
+   text-align: left;
+   padding: 13vmin 5vmin 20vmin 10vmin;
+   box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+   font-family: var(-Rubik);
+   z-index: 1;
+}
+section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+.section-1 .row .col-md-6 .panel p{
+    font-size: 0.9em;
+    color: rgba(0,0,0,0.5);
+}
+
+/********************* cards 1 end ***************/
+
+.container{
+    margin-top: 0;
+    margin-left: 8%;
+}
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+    
+  /******footer******/
+
+  .footer-bottom{
+   background: rgb(184, 82, 82);
+  
+   padding: 20px;
+   text-align: center;
+}
+
+.footer-bottom p{
+   font-size: 14px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+}
+.footer-bottom span{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+   
+}
+/******footer end******/
+
+.center_4_top{
+   background-image: url("https://www.templateonweb.com/upload/aedemodir/149e9677a5989fd342ae44213df68868/img/4.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center;
+}
+.center_4_top h2{
+   padding:0;
+   margin:0;
+   padding-top: 20px;
+}
+.center_4_top h2 a{
+   font-size:60px;
+   color:#e85157;
+   letter-spacing: 3.2px;
+   padding-left:60px;
+   text-decoration:none;
+}
+.center_4_top h2 a:hover{
+   color:#333;
+}
+.center_4_top .founder_5{
+   display:block;
+   margin-top:0px;
+   padding-left:60px;
+   padding-bottom:20px;
+}
+.paragraph{
+   color: #a55f61;
+   text-align: left;
+   margin-left: 10px;
+   font-weight: bold;
+}
+
+
+
+/******cards******/
+.gallery-block{
+   background: rgba(87, 22, 22, 0.15);
+   padding-bottom: 60px;
+   padding-top: 60px;
+}
+.gallery-block .heading{
+   margin-bottom: 50px;
+   text-align: center;
+}
+.gallery-block .heading h1{
+   color: #b83a3a;
+   font-weight: bold;
+   font-size: 50px;
+   text-transform: uppercase;
+}
+
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 5vmin;
+}
+.section-4 .team{
+    padding: 10vmin 4vmin;
+}
+.section-4 .card{
+    width: 22rem;
+    
+}
+.section-4 .card.card-text{
+    padding: 0.5rem;
+}
+.section-4 .card .card-body>a{
+   font-size: 1.5em;
+}
+.section-4 .carousel-item{
+    padding-left: 3rem;
+}
+.border-rsdius{
+    border-radius: 340px;
+    width: 60%;
+}
+
+/******cards end******/
+/*****Index End*******/
+
+/**Shop Css****/
+    /********************* cards 1 ***************/
+
+    .section-1{
+        padding: 9vmin 0;
+    }
+    .section-1 .row .col-md-6 .pray img{
+        opacity: 0.8;
+        width: 80%;
+        border-radius: 0.9em;
+    }
+    .section-1 .row .col-md-6:last-child{
+        position: relative;
+    }
+    section-1 .row .col-md-6 .panel{
+       position: absolute;
+       top: 5vmin;
+       left: -18vmin;
+       background: white;
+       border-radius: 3px;
+       text-align: left;
+       padding: 13vmin 5vmin 20vmin 10vmin;
+       font-family: var(-Rubik);
+       z-index: 1;
+    }
+    section-1 .row .col-md-6 .panel h1{
+        font-weight: 60px;
+        padding: 0.4em 0;
+        font-size: 6em;
+    }
+    .section-1 .row .col-md-6 .panel p{
+        font-size: 0.9em;
+        color: rgba(0,0,0,0.5);
+    }
+    
+    /********************* cards 1 end ***************/
+    
+    
+       /******cards******/
+    
+    .gallery-block{
+       background: rgba(87, 22, 22, 0.15);
+       padding-bottom: 60px;
+       padding-top: 60px;
+    }
+    .gallery-block .heading{
+       margin-bottom: 50px;
+       text-align: center;
+    }
+    .gallery-block .heading h1{
+       color: #b83a3a;
+       font-weight: bold;
+       font-size: 50px;
+       text-transform: uppercase;
+    }
+    
+    .section-4 .container h1{
+        font-size: 6vmin;
+        padding-top: 5vmin;
+    }
+    .section-4 .team{
+        padding: 10vmin 4vmin;
+    }
+    .section-4 .card{
+        width: 22rem;
+        
+    }
+    .section-4 .card.card-text{
+        padding: 0.5rem;
+    }
+    .section-4 .card .card-body>a{
+       font-size: 1.5em;
+    }
+    .section-4 .carousel-item{
+        padding-left: 3rem;
+    }
+    .border-rsdius{
+        border-radius: 340px;
+        width: 60%;
+    }
+    
+    /******cards end******/
+    
+    .section-4 .team{
+        padding: 10vmin 4vmin;
+    }
+    .section-4 .card{
+        width: 22rem;
+        
+    }
+    .section-4 .card.card-text{
+        padding: 0.5rem;
+    }
+    .section-4 .card .card-body>a{
+       font-size: 1.5em;
+    }
+    .section-4 .carousel-item{
+        padding-left: 3rem;
+    }
+    .border-rsdius{
+        border-radius: 340px;
+        width: 60%;
+    }
+    
+    
+    /******footer******/
+
+        section {
+            padding: 60px 0;
+        }
+        
+        section .section-title {
+            text-align: center;
+            color: #007b5e;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+        #footer {
+            background: #007b5e !important;
+        }
+        #footer h5{
+            padding-left: 10px;
+            border-left: 3px solid #eeeeee;
+            padding-bottom: 6px;
+            margin-bottom: 20px;
+            color:#ffffff;
+        }
+        #footer a {
+            color: #ffffff;
+            text-decoration: none !important;
+            background-color: transparent;
+            -webkit-text-decoration-skip: objects;
+        }
+        #footer ul.social li{
+            padding: 3px 0;
+        }
+        #footer ul.social li a i {
+            margin-right: 5px;
+            font-size:25px;
+            -webkit-transition: .5s all ease;
+            -moz-transition: .5s all ease;
+            transition: .5s all ease;
+        }
+        #footer ul.social li:hover a i {
+            font-size:30px;
+            margin-top:-10px;
+        }
+        #footer ul.social li a,
+        #footer ul.quick-links li a{
+            color:#ffffff;
+        }
+        #footer ul.social li a:hover{
+            color:#eeeeee;
+        }
+        #footer ul.quick-links li{
+            padding: 3px 0;
+            -webkit-transition: .5s all ease;
+            -moz-transition: .5s all ease;
+            transition: .5s all ease;
+        }
+        #footer ul.quick-links li:hover{
+            padding: 3px 0;
+            margin-left:5px;
+            font-weight:700;
+        }
+        #footer ul.quick-links li a i{
+            margin-right: 5px;
+        }
+        #footer ul.quick-links li:hover a i {
+            font-weight: 700;
+        }
+        
+        @media (max-width:767px){
+            #footer h5 {
+            padding-left: 0;
+            border-left: transparent;
+            padding-bottom: 0px;
+            margin-bottom: 10px;
+        }
+        }
+        
+    /******footer End*******/

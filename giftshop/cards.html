@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Cards</title>
+ <link rel="stylesheet" href="index2.html">
+ <link rel="stylesheet" href="contact.html">
+ <link rel="stylesheet" href="about.html">
+ <link rel="stylesheet" href="shop.html">
+ <link rel="stylesheet" href="mug.html">
+    
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+
+<style>  
+*{
+     box-sizing: border-box;
+     font-family: 'Lato', sans-serif;
+ }
+ html,body{
+     width: 100%;
+     height: 100%;
+     justify-content: center;
+     align-items: center;
+     background: whitesmoke
+ }
+ h1{
+     text-align: center;
+ }
+ /******************** CARDS START ********************/ 
+ .wrapper{
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+ }
+ .card{
+     background: #fff;
+ }
+ .card:hover{
+     transform: translateY(20px);
+ }
+ .card:before{
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: block;
+     width: 100%;
+     height: 100%;  
+     z-index: 2;
+     transition: 0.5s all;
+     opacity: 0;
+ }
+ .card:hover::before{
+     opacity: 1;
+ }
+ .card img{
+     object-fit: cover;
+ }
+ .card .info{
+     position: relative;
+     z-index: 3;
+     opacity: 1;
+     transition: 0.5s all;
+ }
+ .card:hover .info{
+     opacity: 1;
+     transform: translateY(0px);
+ }
+ .card .info h2{
+     margin: 0;
+ }
+ .card .info p{
+     letter-spacing: 1px;
+     font-size: 15px;
+     margin-top: 8px;
+     margin-bottom: 20px;
+ }
+ .card .info .btn{
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+     background: #fff;
+     font-size: 14px;
+     font-weight: bold;
+     cursor: pointer;
+     transition: 0.4s ease-in-out;
+ }
+ .card .info .btn:hover{
+     box-shadow: 0px 7px 10px rgb(0,0,0,0.5);
+ }
+ /******************** CARDS END ********************/
+
+ /********************FOOTER START********************/
+ .footer-bottom{
+     background: rgb(184, 82, 82);
+     padding: 20px;
+     text-align: center;
+ }
+ .footer-bottom p{
+     font-size: 14px;
+     word-spacing: 2px;
+     text-transform: capitalize;
+ }
+ .footer-bottom span{
+     color: white;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+ /********************FOOTER END********************/
+</style>
+
+<body>
+ <!--NAVBAR START-->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 20px;">
+     <a class="navbar-brand" href="#"><img src="http://cdn.shopify.com/s/files/1/1476/0552/files/Gift_Shop_Logo_CUTOUT_over_white_df2e02c7-0c4b-4834-a0a6-04848b39274d_1200x1200.png?v=1607711553" alt="" style="width: 25%;"></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav md-auto">
+             <li class="nav-item active">
+                 <a class="nav-link" href="Index.html">Home </a>
+             </li>
+             <li class="nav-item active">
+                 <a class="nav-link" href="about.html">About</a>
+             </li>
+             <li class="nav-item active">
+                 <a class="nav-link" href="shop.html">Brand</a>
+             </li>
+             <li class="nav-item active">
+                 <a class="nav-link" href="product.html">Our Products</a>
+             </li>
+             <li class="nav-item dropdown active">
+                 <a class="nav-link dropdown-toggle" href="#categories" id="navbarDropdown" role="button" data-toggle="dropdown">
+                 Categories</a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="mug.html">Mugs</a>
+                     <a class="dropdown-item" href="cards.html">Cards</a>
+                     <a class="dropdown-item" href="bracelet.html">Bracelets</a>
+                     <a class="dropdown-item" href="watches.html">Watches</a>
+                 </div>
+             </li>
+             <li class="nav-item active">
+                 <a class="nav-link disabled" href="contact.html">Contact Us</a>
+             </li>
+         </ul>
+     </div>
+ </nav>
+ <!--NAVBAR END--> 
+ <br>
+ <br>
+ <!--CARDS START-->
+ <!--CARD 1-->
+ <h1><b>BIRTHDAY CARDS</b></h1>
+ <div class="wrapper">
+    <div class="card">
+        <img src="https://i.pinimg.com/originals/ee/3b/43/ee3b43e05252998270207c2df9256b5b.jpg" width="400px" height="350px">
+        <div class="info">
+            <h2>Flash Animated Card</h2>
+            <p> PKR* Rs:200</p>
+            <a href="#" class="btn"> Add to cart</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="http://i.123g.us/c/birth_happybirthday/card/323676.gif" width="400px" height="350px">
+        <div class="info">
+            <h2>Rocking Happy Birthday</h2>
+            <p> PKR* Rs:300</p>
+            <a href="#" class="btn"> Add to cart</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/originals/2e/c2/c3/2ec2c3be0b9331c41986ce3210fdc807.jpg" width="400px" height="350px">
+        <div class="info">
+            <h2>Customised Colorful Baloon</h2>
+            <p> PKR* Rs:500</p>
+            <a href="#" class="btn"> Add to cart</a>
+        </div>
+    </div>
+ </div>
+ <br>
+ <!--CARD 2-->
+ <h1><b>EID GREETING CARDS</b></h1>
+ <div class="wrapper">
+    <div class="card">
+        <img src="https://image.freepik.com/free-vector/milad-un-nabi-card-watercolor-style_23-2147527613.jpg" width="400px" height="350px">
+        <div class="info">
+            <h2>Eid Milad un Nabi Card</h2>
+            <p> PKR* Rs:200</p>
+            <a href="#" class="btn"> Add to cart</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://birthdaycake24.com/uploads/worigin/2020/04/21/eid-al-fitr-cards_c4603d090.jpg" width="400px" height="350px">
+        <div class="info">
+            <h2>Eid ul Fitr Card</h2>
+            <p> PKR* Rs:300</p>
+            <a href="#" class="btn"> Add to cart</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="http://proudly.in/wp-content/uploads/2016/08/Eid-Ul-Azha.jpg" width="400px" height="350px">
+        <div class="info">
+            <h2>Eid ul Azha Card</h2>
+            <p> PKR* Rs:500</p>
+            <a href="#" class="btn"> Add to cart</a>
+        </div>
+    </div>
+</div>
+<br>
+<!--CARD 3-->
+<h1><b>OCCASIONAL CARDS</b></h1>
+ <div class="wrapper">
+    <div class="card">
+        <img src="https://www.funkypigeon.com/blog/wp-content/uploads/2020/04/Me-to-You-New-Baby-Card-1.jpg" width="250px" height="350px">
+        <div class="info">
+            <h2>New Baby Card</h2>
+            <p> PKR* Rs:200</p>
+            <a href="#" class="btn"> Add to cart</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://img.freepik.com/free-vector/beautiful-hand-drawing-wedding-invitation-floral-design_44538-1955.jpg?size=626&ext=jpg" width="500px" height="350px">
+        <div class="info">
+            <h2>Wedding Invitation Card</h2>
+            <p> PKR* Rs:300</p>
+            <a href="#" class="btn"> Add to cart</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/originals/e1/dd/9d/e1dd9d70aeb2cf61e24440a7e89093a1.jpg" width="400px" height="350px">
+        <div class="info">
+            <h2>Father's Day Card</h2>
+            <p> PKR* Rs:500</p>
+            <a href="#" class="btn"> Add to cart</a>
+        </div>
+    </div>
+</div>
+<br>
+
+ <!--CARDS END-->
+ <br>
+ <br>
+ <!--FOOTER START-->
+ <footer class="page-footer bg-dark " style="padding: 60px;">
+     <div class="container text-center">
+         <div class="row" style="color: white;">
+             <div class="col-md-3 mx-auto mb-4">
+                 <h5 class="text-uppercase font-weight-bold">About Us</h5>
+                 <hr class="bg-success mb-4 mt-0 d-line-block mx-auto" style="width: 125px; height: 2px;">
+                 <ul class="list-unstyled"></ul>
+                 <p class=" col-md-12 mt-2 text-light text-md-left" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                 Unde modi autem saepe, itaque accusamus ipsa commodi minima quam 
+                 perspiciatis.</p>
+             </div>
+             <div class="col-md-2 mx-auto mb-4">
+                 <h5 class="text-uppercase font-weight-bold">Products</h5>
+                 <hr class="bg-success mb-4 mt-0 d-line-block mx-auto" style="width: 85px; height: 2px;">
+                 <ul class="list-unstyled">
+                     <li class="my-2">HTML 5</li>
+                     <li class="my-2">CSS 3</li>
+                     <li class="my-2">Bootstrape</li>
+                     <li class="my-2">Javascript</li>
+                 </ul>
+             </div>
+             <div class="col-md-3 mx-auto mb-4">
+                 <h5 class="font-weight-bold">Usefull Links</h5>
+                 <hr class="bg-success mb-4 mt-0 d-line-block mx-auto" style="width: 110px; height: 2px;">
+                 <ul class="list-unstyled">
+                     <li class="my-2">Home</a>
+                     <li class="my-2">About</a>
+                     <li class="my-2">Services</a>
+                     <li class="my-2">Contacts</a>
+                 </ul>
+             </div>
+             <div class="col-md-3 col-sm-12 mx-auto mb-4">
+                 <h5 class="text-uppercase font-weight-bold">Follow Us</h5>
+                 <hr class="bg-success mb-4 mt-0 d-line-block mx-auto" style="width: 110px; height: 2px;">        
+                 <div class="list-unstyled test-bold" style="color: rgb(233, 15, 51)"></div>
+                 <i class="fab fa-facebook"></i>
+                 <i class="fab fa-instagram"></i>
+                 <i class="fab fa-twitter"></i>
+                 <i class="fab fa-youtube"></i>
+             </div>
+         </div>
+     </div>
+     <div class="footer-bottom text-bold" style="background-color: gray;">
+         <p><b>Copyright ©2021 codeOCapacity Designed By </b><span> GiftShop</span></p>
+     </div>
+ </footer>
+ <!--FOOTER END--> 
+</body>
+</html>
